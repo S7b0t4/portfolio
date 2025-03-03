@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///var/www/html/portfolio/app/person.tsx"],"sourcesContent":["import Image from \"next/image\";\n\nexport default function Person() {\n\treturn (\n\t  <div className=\"flex gap-4\">\n      <Image\n        src=\"/avatar.svg\"\n        width={100}\n        height={150}\n        alt=\"Avatar\"\n        className=\"avatar\"\n      />\n      <div>\n        <p className=\"person_name\">\n          Paun Anton\n        </p>\n        <p className=\"person_subtitle text-center\">\n          WEB dev\n        </p>\n      </div>\n       \n    </div>\n  );\n}\n\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACvB,qBACE,8OAAC;QAAI,WAAU;;0BACZ,8OAAC,6HAAA,CAAA,UAAK;gBACJ,KAAI;gBACJ,OAAO;gBACP,QAAQ;gBACR,KAAI;gBACJ,WAAU;;;;;;0BAEZ,8OAAC;;kCACC,8OAAC;wBAAE,WAAU;kCAAc;;;;;;kCAG3B,8OAAC;wBAAE,WAAU;kCAA8B;;;;;;;;;;;;;;;;;;AAOnD","debugId":null}},
+    {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 83, "column": 0}, "map": {"version":3,"sources":["file:///var/www/html/portfolio/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport Person from \"./person.tsx\"\n\nexport default function Home() {\n\treturn (\n    <div><Person/></div>\n  );\n}\n"],"names":[],"mappings":";;;;AACA;;;AAEe,SAAS;IACvB,qBACG,8OAAC;kBAAI,cAAA,8OAAC,8GAAA,CAAA,UAAM;;;;;;;;;;AAEhB","debugId":null}},
+    {"offset": {"line": 103, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
