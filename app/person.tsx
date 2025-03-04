@@ -17,8 +17,10 @@ export default function Person() {
         <p className="person_subtitle text-center">
           WEB dev
         </p>
+        <p className="title">
+          hello, world
+        </p>
       </div>
-       
     </div>
   );
 }
